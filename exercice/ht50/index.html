@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><html></html></title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <p>
+        <label for="nom">Nom</label><br>
+        <input name="nom" id="nom" type="text" size="30" maxlength="30" placeholder="Votre Non"/>
+    </p>
+    <p>
+        <label for="prenom">Prénom</label><br>
+        <input name="prenom" id="prenom" type="text" size="30" maxlength="30" value="Votre Prénom"/>
+    </p>
+
+    <form action="verif.php">
+        <select name="Département de résidence">
+            <option value="09">Ariège</option>
+            <option value="12">Aveyron</option>
+            <option value="31">Haut-Garonne</option>
+            <option value="32">Gers</option>
+            <option value="46">Lot</option>
+            <option value="65">Haut-Pyrénées</option>
+            <option value="81">Tarn</option>
+            <option value="82">Tarn-et-Garonne</option>
+        </select>
+
+    
+<p>J'aime<br />
+    <input name="biere" id="biere" type="checkbox" />
+    <label for="biere">La bière</label><br />
+    <input name="aligot" id="aligot" type="checkbox" checked="checked" />
+    <label for="aligot">L'aligot</label><br />
+    <input name="choucroute" id="choucroute" type="checkbox" />
+    <label for="choucroute">La choucroute</label><br />
+</p>
+<p>Je suis <br />
+<input  type="radio" name="sexe" value="m"/> un garçon
+<input type="radio" name="sexe" value="f"/> une fille
+</p>
+<p>
+        <input type="submit" value="Envoyer" /> &nbsp;<input type="reset" value="Réinitialiser">
+    </p>
+    </form>
+</body>
+</html>

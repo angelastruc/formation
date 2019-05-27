@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* main.css */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(17, 17, 211);
+    background-color:rgb(0, 255, 221);
+    }
+title h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    background-color:lemonchiffon;
+}
